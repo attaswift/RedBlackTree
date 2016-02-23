@@ -17,4 +17,4 @@ I created this package to make a set of ordered collection types in Swift.
 However, benchmarking showed that the performance of red-black trees isn't great, 
 and I chose to base my collection types on b-trees instead.
 If you're in need of a fast ordered collection type, be sure
-check out my [BTree]](https://github.com/lorentey/BTree) project before settling on red-black trees.
+check out my [BTree](https://github.com/lorentey/BTree) project before settling on red-black trees.
