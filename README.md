@@ -1,10 +1,10 @@
 # Red-Black Trees in Swift
 
 [![Swift 2.1](https://img.shields.io/badge/Swift-2.1-blue.svg)](https://developer.apple.com/swift/)
-[![License](https://img.shields.io/badge/licence-MIT-blue.svg)](http://cocoapods.org/pods/BTree)
+[![License](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/lorentey/RedBlackTree/blob/master/LICENCE.md)
 
-[![Build Status](https://travis-ci.org/lorentey/RedBlackTree.svg?branch=master)](https://travis-ci.org/lorentey/BTree)
-[![Code Coverage](https://codecov.io/github/lorentey/RedBlackTree/coverage.svg?branch=master)](https://codecov.io/github/lorentey/BTree?branch=master)
+[![Build Status](https://travis-ci.org/lorentey/RedBlackTree.svg?branch=master)](https://travis-ci.org/lorentey/RedBlackTree)
+[![Code Coverage](https://codecov.io/github/lorentey/RedBlackTree/coverage.svg?branch=master)](https://codecov.io/github/lorentey/RedBlackTree?branch=master)
 
 This project provides an red-black tree implementation in pure Swift as a struct with value semantics.
 The nodes of the tree are stored in a single flat `Array`, with array indexes serving as pointers.
