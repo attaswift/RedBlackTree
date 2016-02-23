@@ -11,29 +11,13 @@
             buildForRunning = "YES"
             buildForProfiling = "YES"
             buildForArchiving = "YES"
-            buildForAnalyzing = "YES"
-            hideIssues = "NO">
+            buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BB9AE43A1C1FCC35002C5D63"
-               BuildableName = "TreeCollections.framework"
+               BuildableName = "RedBlackTree.framework"
                BlueprintName = "Mac"
-               ReferencedContainer = "container:TreeCollections.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES"
-            hideIssues = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BB9AE44B1C1FCE0B002C5D63"
-               BuildableName = "TreeCollectionsTests.xctest"
-               BlueprintName = "Tests-Mac"
-               ReferencedContainer = "container:TreeCollections.xcodeproj">
+               ReferencedContainer = "container:RedBlackTree.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -50,9 +34,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BB9AE44B1C1FCE0B002C5D63"
-               BuildableName = "TreeCollectionsTests.xctest"
+               BuildableName = "RedBlackTreeTests.xctest"
                BlueprintName = "Tests-Mac"
-               ReferencedContainer = "container:TreeCollections.xcodeproj">
+               ReferencedContainer = "container:RedBlackTree.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -60,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BB9AE43A1C1FCC35002C5D63"
-            BuildableName = "TreeCollections.framework"
+            BuildableName = "RedBlackTree.framework"
             BlueprintName = "Mac"
-            ReferencedContainer = "container:TreeCollections.xcodeproj">
+            ReferencedContainer = "container:RedBlackTree.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -82,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BB9AE43A1C1FCC35002C5D63"
-            BuildableName = "TreeCollections.framework"
+            BuildableName = "RedBlackTree.framework"
             BlueprintName = "Mac"
-            ReferencedContainer = "container:TreeCollections.xcodeproj">
+            ReferencedContainer = "container:RedBlackTree.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -100,9 +84,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BB9AE43A1C1FCC35002C5D63"
-            BuildableName = "TreeCollections.framework"
+            BuildableName = "RedBlackTree.framework"
             BlueprintName = "Mac"
-            ReferencedContainer = "container:TreeCollections.xcodeproj">
+            ReferencedContainer = "container:RedBlackTree.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

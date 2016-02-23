@@ -1,14 +1,14 @@
 //
 //  Package.swift
-//  TreeCollections
+//  RedBlackTree
 //
 //  Created by Károly Lőrentey on 2015-12-15.
-//  Copyright © 2015 Károly Lőrentey. All rights reserved.
+//  Copyright © 2015–2016 Károly Lőrentey.
 //
 
 import PackageDescription
 
 let package = Package(
-    name: "TreeCollections",
+    name: "RedBlackTree",
     dependencies: []
 )

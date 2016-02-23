@@ -11,39 +11,29 @@
             buildForRunning = "YES"
             buildForProfiling = "YES"
             buildForArchiving = "YES"
-            buildForAnalyzing = "YES"
-            hideIssues = "NO">
+            buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BB1747251C276CFB002C929C"
-               BuildableName = "CollectionBench-Mac.app"
-               BlueprintName = "CollectionBench-Mac"
-               ReferencedContainer = "container:TreeCollections.xcodeproj">
+               BlueprintIdentifier = "BB8FE9981C7C8CDC0051268F"
+               BuildableName = "RedBlackTree.framework"
+               BlueprintName = "watchOS"
+               ReferencedContainer = "container:RedBlackTree.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Profile"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BB1747251C276CFB002C929C"
-            BuildableName = "CollectionBench-Mac.app"
-            BlueprintName = "CollectionBench-Mac"
-            ReferencedContainer = "container:TreeCollections.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -52,35 +42,33 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BB1747251C276CFB002C929C"
-            BuildableName = "CollectionBench-Mac.app"
-            BlueprintName = "CollectionBench-Mac"
-            ReferencedContainer = "container:TreeCollections.xcodeproj">
+            BlueprintIdentifier = "BB8FE9981C7C8CDC0051268F"
+            BuildableName = "RedBlackTree.framework"
+            BlueprintName = "watchOS"
+            ReferencedContainer = "container:RedBlackTree.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "Profile"
+      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BB1747251C276CFB002C929C"
-            BuildableName = "CollectionBench-Mac.app"
-            BlueprintName = "CollectionBench-Mac"
-            ReferencedContainer = "container:TreeCollections.xcodeproj">
+            BlueprintIdentifier = "BB8FE9981C7C8CDC0051268F"
+            BuildableName = "RedBlackTree.framework"
+            BlueprintName = "watchOS"
+            ReferencedContainer = "container:RedBlackTree.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

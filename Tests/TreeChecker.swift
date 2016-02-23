@@ -1,13 +1,13 @@
 //
 //  TreeChecker.swift
-//  TreeCollections
+//  RedBlackTree
 //
 //  Created by Károly Lőrentey on 2015-12-20.
-//  Copyright © 2015 Károly Lőrentey. All rights reserved.
+//  Copyright © 2015–2016 Károly Lőrentey.
 //
 
 import XCTest
-@testable import TreeCollections
+@testable import RedBlackTree
 
 struct RedBlackInfo<Key: RedBlackInsertionKey, Payload> {
     typealias Tree = RedBlackTree<Key, Payload>

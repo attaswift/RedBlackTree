@@ -1,13 +1,13 @@
 //
 //  TreeDumper.swift
-//  TreeCollections
+//  RedBlackTree
 //
 //  Created by Károly Lőrentey on 2015-12-20.
-//  Copyright © 2015 Károly Lőrentey. All rights reserved.
+//  Copyright © 2015–2016 Károly Lőrentey.
 //
 
 import Foundation
-@testable import TreeCollections
+@testable import RedBlackTree
 
 private func *(i: Int, s: String) -> String {
     var result = ""

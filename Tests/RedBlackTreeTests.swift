@@ -1,14 +1,14 @@
 
 //
 //  RedBlackTreeTests.swift
-//  TreeCollections
+//  RedBlackTree
 //
 //  Created by Károly Lőrentey on 2015-12-19.
-//  Copyright © 2015 Károly Lőrentey. All rights reserved.
+//  Copyright © 2015–2016 Károly Lőrentey.
 //
 
 import XCTest
-@testable import TreeCollections
+@testable import RedBlackTree
 
 public struct TestHead<Key: Comparable>: Equatable, CustomStringConvertible {
     let key: Key

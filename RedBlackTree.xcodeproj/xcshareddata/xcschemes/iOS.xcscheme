@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BB54D0AE1C1F0357008A462B"
-               BuildableName = "TreeCollections.framework"
+               BuildableName = "RedBlackTree.framework"
                BlueprintName = "iOS"
-               ReferencedContainer = "container:TreeCollections.xcodeproj">
+               ReferencedContainer = "container:RedBlackTree.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -26,16 +26,17 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BB54D0B81C1F0357008A462B"
-               BuildableName = "TreeCollectionsTests.xctest"
+               BuildableName = "RedBlackTreeTests.xctest"
                BlueprintName = "Tests-iOS"
-               ReferencedContainer = "container:TreeCollections.xcodeproj">
+               ReferencedContainer = "container:RedBlackTree.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BB54D0AE1C1F0357008A462B"
-            BuildableName = "TreeCollections.framework"
+            BuildableName = "RedBlackTree.framework"
             BlueprintName = "iOS"
-            ReferencedContainer = "container:TreeCollections.xcodeproj">
+            ReferencedContainer = "container:RedBlackTree.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BB54D0AE1C1F0357008A462B"
-            BuildableName = "TreeCollections.framework"
+            BuildableName = "RedBlackTree.framework"
             BlueprintName = "iOS"
-            ReferencedContainer = "container:TreeCollections.xcodeproj">
+            ReferencedContainer = "container:RedBlackTree.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -83,9 +84,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BB54D0AE1C1F0357008A462B"
-            BuildableName = "TreeCollections.framework"
+            BuildableName = "RedBlackTree.framework"
             BlueprintName = "iOS"
-            ReferencedContainer = "container:TreeCollections.xcodeproj">
+            ReferencedContainer = "container:RedBlackTree.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

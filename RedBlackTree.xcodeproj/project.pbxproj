@@ -1,0 +1,1340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB54D0BA1C1F0357008A462B /* RedBlackTree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB54D0AF1C1F0357008A462B /* RedBlackTree.framework */; };
+		BB8FE9BA1C7C8E0F0051268F /* RedBlackTree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8FE9B01C7C8E0E0051268F /* RedBlackTree.framework */; };
+		BB8FE9E31C7C9B420051268F /* RedBlackKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FE9DE1C7C9B420051268F /* RedBlackKey.swift */; };
+		BB8FE9E41C7C9B420051268F /* RedBlackTree descriptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FE9DF1C7C9B420051268F /* RedBlackTree descriptions.swift */; };
+		BB8FE9E51C7C9B420051268F /* RedBlackTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FE9E01C7C9B420051268F /* RedBlackTree.swift */; };
+		BB8FE9E71C7C9B420051268F /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FE9E21C7C9B420051268F /* Summary.swift */; };
+		BB8FE9E81C7C9B4C0051268F /* RedBlackKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FE9DE1C7C9B420051268F /* RedBlackKey.swift */; };
+		BB8FE9E91C7C9B4C0051268F /* RedBlackTree descriptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FE9DF1C7C9B420051268F /* RedBlackTree descriptions.swift */; };
+		BB8FE9EA1C7C9B4C0051268F /* RedBlackTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FE9E01C7C9B420051268F /* RedBlackTree.swift */; };
+		BB8FE9EC1C7C9B4C0051268F /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FE9E21C7C9B420051268F /* Summary.swift */; };
+		BB8FE9ED1C7C9B4D0051268F /* RedBlackKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FE9DE1C7C9B420051268F /* RedBlackKey.swift */; };
+		BB8FE9EE1C7C9B4D0051268F /* RedBlackTree descriptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FE9DF1C7C9B420051268F /* RedBlackTree descriptions.swift */; };
+		BB8FE9EF1C7C9B4D0051268F /* RedBlackTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FE9E01C7C9B420051268F /* RedBlackTree.swift */; };
+		BB8FE9F11C7C9B4D0051268F /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FE9E21C7C9B420051268F /* Summary.swift */; };
+		BB8FE9F21C7C9B4D0051268F /* RedBlackKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FE9DE1C7C9B420051268F /* RedBlackKey.swift */; };
+		BB8FE9F31C7C9B4D0051268F /* RedBlackTree descriptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FE9DF1C7C9B420051268F /* RedBlackTree descriptions.swift */; };
+		BB8FE9F41C7C9B4D0051268F /* RedBlackTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FE9E01C7C9B420051268F /* RedBlackTree.swift */; };
+		BB8FE9F61C7C9B4D0051268F /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FE9E21C7C9B420051268F /* Summary.swift */; };
+		BB8FE9FC1C7C9C010051268F /* RedBlackTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FE9F71C7C9C010051268F /* RedBlackTreeTests.swift */; };
+		BB8FE9FD1C7C9C010051268F /* RedBlackTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FE9F71C7C9C010051268F /* RedBlackTreeTests.swift */; };
+		BB8FE9FE1C7C9C010051268F /* RedBlackTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FE9F71C7C9C010051268F /* RedBlackTreeTests.swift */; };
+		BB8FE9FF1C7C9C010051268F /* TestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FE9F81C7C9C010051268F /* TestUtils.swift */; };
+		BB8FEA001C7C9C010051268F /* TestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FE9F81C7C9C010051268F /* TestUtils.swift */; };
+		BB8FEA011C7C9C010051268F /* TestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FE9F81C7C9C010051268F /* TestUtils.swift */; };
+		BB8FEA051C7C9C010051268F /* TreeChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FE9FA1C7C9C010051268F /* TreeChecker.swift */; };
+		BB8FEA061C7C9C010051268F /* TreeChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FE9FA1C7C9C010051268F /* TreeChecker.swift */; };
+		BB8FEA071C7C9C010051268F /* TreeChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FE9FA1C7C9C010051268F /* TreeChecker.swift */; };
+		BB8FEA081C7C9C010051268F /* TreeDumper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FE9FB1C7C9C010051268F /* TreeDumper.swift */; };
+		BB8FEA091C7C9C010051268F /* TreeDumper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FE9FB1C7C9C010051268F /* TreeDumper.swift */; };
+		BB8FEA0A1C7C9C010051268F /* TreeDumper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FE9FB1C7C9C010051268F /* TreeDumper.swift */; };
+		BB8FEA151C7C9C5E0051268F /* Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FEA101C7C9C5E0051268F /* Permutations.swift */; };
+		BB8FEA161C7C9C5E0051268F /* Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FEA101C7C9C5E0051268F /* Permutations.swift */; };
+		BB8FEA171C7C9C5E0051268F /* Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FEA101C7C9C5E0051268F /* Permutations.swift */; };
+		BB8FEA181C7C9C5E0051268F /* PermutationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FEA111C7C9C5E0051268F /* PermutationTests.swift */; };
+		BB8FEA191C7C9C5E0051268F /* PermutationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FEA111C7C9C5E0051268F /* PermutationTests.swift */; };
+		BB8FEA1A1C7C9C5E0051268F /* PermutationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FEA111C7C9C5E0051268F /* PermutationTests.swift */; };
+		BB8FEA1B1C7C9C5E0051268F /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FEA121C7C9C5E0051268F /* Random.swift */; };
+		BB8FEA1C1C7C9C5E0051268F /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FEA121C7C9C5E0051268F /* Random.swift */; };
+		BB8FEA1D1C7C9C5E0051268F /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FEA121C7C9C5E0051268F /* Random.swift */; };
+		BB8FEA1E1C7C9C5E0051268F /* String Manipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FEA131C7C9C5E0051268F /* String Manipulation.swift */; };
+		BB8FEA1F1C7C9C5E0051268F /* String Manipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FEA131C7C9C5E0051268F /* String Manipulation.swift */; };
+		BB8FEA201C7C9C5E0051268F /* String Manipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FEA131C7C9C5E0051268F /* String Manipulation.swift */; };
+		BB8FEA211C7C9C5E0051268F /* XCTest extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FEA141C7C9C5E0051268F /* XCTest extensions.swift */; };
+		BB8FEA221C7C9C5E0051268F /* XCTest extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FEA141C7C9C5E0051268F /* XCTest extensions.swift */; };
+		BB8FEA231C7C9C5E0051268F /* XCTest extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FEA141C7C9C5E0051268F /* XCTest extensions.swift */; };
+		BB9AE4511C1FCE0B002C5D63 /* RedBlackTree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9AE43B1C1FCC35002C5D63 /* RedBlackTree.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB54D0BB1C1F0357008A462B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB54D0A61C1F0357008A462B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB54D0AE1C1F0357008A462B;
+			remoteInfo = TreeCollections;
+		};
+		BB8FE9BB1C7C8E0F0051268F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB54D0A61C1F0357008A462B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB8FE9AF1C7C8E0E0051268F;
+			remoteInfo = "BTree-tvOS";
+		};
+		BB9AE4521C1FCE0B002C5D63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB54D0A61C1F0357008A462B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB9AE43A1C1FCC35002C5D63;
+			remoteInfo = "OS X";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB0D75D91C1F045C00538080 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; lineEnding = 0; path = README.md; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.markdown; };
+		BB54D0AF1C1F0357008A462B /* RedBlackTree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RedBlackTree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB54D0B41C1F0357008A462B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB54D0B91C1F0357008A462B /* RedBlackTreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedBlackTreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB54D0C01C1F0357008A462B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB8FE9931C7C8BB70051268F /* version.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = version.xcconfig; sourceTree = "<group>"; };
+		BB8FE9991C7C8CDC0051268F /* RedBlackTree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RedBlackTree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB8FE9B01C7C8E0E0051268F /* RedBlackTree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RedBlackTree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB8FE9B91C7C8E0E0051268F /* RedBlackTreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedBlackTreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB8FE9DE1C7C9B420051268F /* RedBlackKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedBlackKey.swift; sourceTree = "<group>"; };
+		BB8FE9DF1C7C9B420051268F /* RedBlackTree descriptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RedBlackTree descriptions.swift"; sourceTree = "<group>"; };
+		BB8FE9E01C7C9B420051268F /* RedBlackTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedBlackTree.swift; sourceTree = "<group>"; };
+		BB8FE9E21C7C9B420051268F /* Summary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Summary.swift; sourceTree = "<group>"; };
+		BB8FE9F71C7C9C010051268F /* RedBlackTreeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedBlackTreeTests.swift; sourceTree = "<group>"; };
+		BB8FE9F81C7C9C010051268F /* TestUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUtils.swift; sourceTree = "<group>"; };
+		BB8FE9FA1C7C9C010051268F /* TreeChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeChecker.swift; sourceTree = "<group>"; };
+		BB8FE9FB1C7C9C010051268F /* TreeDumper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeDumper.swift; sourceTree = "<group>"; };
+		BB8FEA101C7C9C5E0051268F /* Permutations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Permutations.swift; sourceTree = "<group>"; };
+		BB8FEA111C7C9C5E0051268F /* PermutationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermutationTests.swift; sourceTree = "<group>"; };
+		BB8FEA121C7C9C5E0051268F /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		BB8FEA131C7C9C5E0051268F /* String Manipulation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String Manipulation.swift"; sourceTree = "<group>"; };
+		BB8FEA141C7C9C5E0051268F /* XCTest extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCTest extensions.swift"; sourceTree = "<group>"; };
+		BB9AE43B1C1FCC35002C5D63 /* RedBlackTree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RedBlackTree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9AE44C1C1FCE0B002C5D63 /* RedBlackTreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedBlackTreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9AE47D1C207303002C5D63 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		BBB224EF1C7BA09B0049FEF6 /* LICENCE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENCE.md; sourceTree = "<group>"; };
+		BBBA30481C4946660019830F /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB54D0AB1C1F0357008A462B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB54D0B61C1F0357008A462B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB54D0BA1C1F0357008A462B /* RedBlackTree.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8FE9951C7C8CDC0051268F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8FE9AC1C7C8E0E0051268F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8FE9B61C7C8E0E0051268F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8FE9BA1C7C8E0F0051268F /* RedBlackTree.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9AE4371C1FCC35002C5D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9AE4491C1FCE0B002C5D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9AE4511C1FCE0B002C5D63 /* RedBlackTree.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB54D0A51C1F0357008A462B = {
+			isa = PBXGroup;
+			children = (
+				BB0D75D91C1F045C00538080 /* README.md */,
+				BBB224EF1C7BA09B0049FEF6 /* LICENCE.md */,
+				BBBA30481C4946660019830F /* .travis.yml */,
+				BB9AE47D1C207303002C5D63 /* Package.swift */,
+				BB8FE9931C7C8BB70051268F /* version.xcconfig */,
+				BB54D0B11C1F0357008A462B /* Sources */,
+				BB54D0BD1C1F0357008A462B /* Tests */,
+				BB54D0B01C1F0357008A462B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB54D0B01C1F0357008A462B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB54D0AF1C1F0357008A462B /* RedBlackTree.framework */,
+				BB54D0B91C1F0357008A462B /* RedBlackTreeTests.xctest */,
+				BB9AE43B1C1FCC35002C5D63 /* RedBlackTree.framework */,
+				BB9AE44C1C1FCE0B002C5D63 /* RedBlackTreeTests.xctest */,
+				BB8FE9991C7C8CDC0051268F /* RedBlackTree.framework */,
+				BB8FE9B01C7C8E0E0051268F /* RedBlackTree.framework */,
+				BB8FE9B91C7C8E0E0051268F /* RedBlackTreeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB54D0B11C1F0357008A462B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BB8FE9E21C7C9B420051268F /* Summary.swift */,
+				BB8FE9DE1C7C9B420051268F /* RedBlackKey.swift */,
+				BB8FE9E01C7C9B420051268F /* RedBlackTree.swift */,
+				BB8FE9DF1C7C9B420051268F /* RedBlackTree descriptions.swift */,
+				BB54D0B41C1F0357008A462B /* Info.plist */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		BB54D0BD1C1F0357008A462B /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BB54D0C01C1F0357008A462B /* Info.plist */,
+				BB8FE9F71C7C9C010051268F /* RedBlackTreeTests.swift */,
+				BB8FE9F81C7C9C010051268F /* TestUtils.swift */,
+				BB8FE9FA1C7C9C010051268F /* TreeChecker.swift */,
+				BB8FE9FB1C7C9C010051268F /* TreeDumper.swift */,
+				BB8FEA0F1C7C9C5E0051268F /* Helpers */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		BB8FEA0F1C7C9C5E0051268F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BB8FEA101C7C9C5E0051268F /* Permutations.swift */,
+				BB8FEA111C7C9C5E0051268F /* PermutationTests.swift */,
+				BB8FEA121C7C9C5E0051268F /* Random.swift */,
+				BB8FEA131C7C9C5E0051268F /* String Manipulation.swift */,
+				BB8FEA141C7C9C5E0051268F /* XCTest extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BB54D0AC1C1F0357008A462B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8FE9961C7C8CDC0051268F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8FE9AD1C7C8E0E0051268F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9AE4381C1FCC35002C5D63 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BB54D0AE1C1F0357008A462B /* iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB54D0C31C1F0357008A462B /* Build configuration list for PBXNativeTarget "iOS" */;
+			buildPhases = (
+				BB54D0AA1C1F0357008A462B /* Sources */,
+				BB54D0AB1C1F0357008A462B /* Frameworks */,
+				BB54D0AC1C1F0357008A462B /* Headers */,
+				BB54D0AD1C1F0357008A462B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS;
+			productName = TreeCollections;
+			productReference = BB54D0AF1C1F0357008A462B /* RedBlackTree.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB54D0B81C1F0357008A462B /* Tests-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB54D0C61C1F0357008A462B /* Build configuration list for PBXNativeTarget "Tests-iOS" */;
+			buildPhases = (
+				BB54D0B51C1F0357008A462B /* Sources */,
+				BB54D0B61C1F0357008A462B /* Frameworks */,
+				BB54D0B71C1F0357008A462B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB54D0BC1C1F0357008A462B /* PBXTargetDependency */,
+			);
+			name = "Tests-iOS";
+			productName = TreeCollectionsTests;
+			productReference = BB54D0B91C1F0357008A462B /* RedBlackTreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB8FE9981C7C8CDC0051268F /* watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB8FE99E1C7C8CDC0051268F /* Build configuration list for PBXNativeTarget "watchOS" */;
+			buildPhases = (
+				BB8FE9941C7C8CDC0051268F /* Sources */,
+				BB8FE9951C7C8CDC0051268F /* Frameworks */,
+				BB8FE9961C7C8CDC0051268F /* Headers */,
+				BB8FE9971C7C8CDC0051268F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = watchOS;
+			productName = BTree;
+			productReference = BB8FE9991C7C8CDC0051268F /* RedBlackTree.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB8FE9AF1C7C8E0E0051268F /* tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB8FE9C11C7C8E0F0051268F /* Build configuration list for PBXNativeTarget "tvOS" */;
+			buildPhases = (
+				BB8FE9AB1C7C8E0E0051268F /* Sources */,
+				BB8FE9AC1C7C8E0E0051268F /* Frameworks */,
+				BB8FE9AD1C7C8E0E0051268F /* Headers */,
+				BB8FE9AE1C7C8E0E0051268F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tvOS;
+			productName = "BTree-tvOS";
+			productReference = BB8FE9B01C7C8E0E0051268F /* RedBlackTree.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB8FE9B81C7C8E0E0051268F /* Tests-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB8FE9C61C7C8E0F0051268F /* Build configuration list for PBXNativeTarget "Tests-tvOS" */;
+			buildPhases = (
+				BB8FE9B51C7C8E0E0051268F /* Sources */,
+				BB8FE9B61C7C8E0E0051268F /* Frameworks */,
+				BB8FE9B71C7C8E0E0051268F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB8FE9BC1C7C8E0F0051268F /* PBXTargetDependency */,
+			);
+			name = "Tests-tvOS";
+			productName = "BTree-tvOSTests";
+			productReference = BB8FE9B91C7C8E0E0051268F /* RedBlackTreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB9AE43A1C1FCC35002C5D63 /* Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB9AE4401C1FCC35002C5D63 /* Build configuration list for PBXNativeTarget "Mac" */;
+			buildPhases = (
+				BB9AE4361C1FCC35002C5D63 /* Sources */,
+				BB9AE4371C1FCC35002C5D63 /* Frameworks */,
+				BB9AE4381C1FCC35002C5D63 /* Headers */,
+				BB9AE4391C1FCC35002C5D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mac;
+			productName = "TreeCollections-OS X";
+			productReference = BB9AE43B1C1FCC35002C5D63 /* RedBlackTree.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB9AE44B1C1FCE0B002C5D63 /* Tests-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB9AE4541C1FCE0B002C5D63 /* Build configuration list for PBXNativeTarget "Tests-Mac" */;
+			buildPhases = (
+				BB9AE4481C1FCE0B002C5D63 /* Sources */,
+				BB9AE4491C1FCE0B002C5D63 /* Frameworks */,
+				BB9AE44A1C1FCE0B002C5D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB9AE4531C1FCE0B002C5D63 /* PBXTargetDependency */,
+			);
+			name = "Tests-Mac";
+			productName = TreeCollectionTests;
+			productReference = BB9AE44C1C1FCE0B002C5D63 /* RedBlackTreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB54D0A61C1F0357008A462B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Károly Lőrentey";
+				TargetAttributes = {
+					BB54D0AE1C1F0357008A462B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					BB54D0B81C1F0357008A462B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					BB8FE9981C7C8CDC0051268F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					BB8FE9AF1C7C8E0E0051268F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					BB8FE9B81C7C8E0E0051268F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					BB9AE43A1C1FCC35002C5D63 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					BB9AE44B1C1FCE0B002C5D63 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = BB54D0A91C1F0357008A462B /* Build configuration list for PBXProject "RedBlackTree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB54D0A51C1F0357008A462B;
+			productRefGroup = BB54D0B01C1F0357008A462B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB54D0AE1C1F0357008A462B /* iOS */,
+				BB9AE43A1C1FCC35002C5D63 /* Mac */,
+				BB8FE9981C7C8CDC0051268F /* watchOS */,
+				BB8FE9AF1C7C8E0E0051268F /* tvOS */,
+				BB54D0B81C1F0357008A462B /* Tests-iOS */,
+				BB9AE44B1C1FCE0B002C5D63 /* Tests-Mac */,
+				BB8FE9B81C7C8E0E0051268F /* Tests-tvOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB54D0AD1C1F0357008A462B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB54D0B71C1F0357008A462B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8FE9971C7C8CDC0051268F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8FE9AE1C7C8E0E0051268F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8FE9B71C7C8E0E0051268F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9AE4391C1FCC35002C5D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9AE44A1C1FCE0B002C5D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB54D0AA1C1F0357008A462B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8FE9E71C7C9B420051268F /* Summary.swift in Sources */,
+				BB8FE9E31C7C9B420051268F /* RedBlackKey.swift in Sources */,
+				BB8FE9E41C7C9B420051268F /* RedBlackTree descriptions.swift in Sources */,
+				BB8FE9E51C7C9B420051268F /* RedBlackTree.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB54D0B51C1F0357008A462B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8FEA181C7C9C5E0051268F /* PermutationTests.swift in Sources */,
+				BB8FEA211C7C9C5E0051268F /* XCTest extensions.swift in Sources */,
+				BB8FEA051C7C9C010051268F /* TreeChecker.swift in Sources */,
+				BB8FEA081C7C9C010051268F /* TreeDumper.swift in Sources */,
+				BB8FE9FC1C7C9C010051268F /* RedBlackTreeTests.swift in Sources */,
+				BB8FEA1E1C7C9C5E0051268F /* String Manipulation.swift in Sources */,
+				BB8FE9FF1C7C9C010051268F /* TestUtils.swift in Sources */,
+				BB8FEA151C7C9C5E0051268F /* Permutations.swift in Sources */,
+				BB8FEA1B1C7C9C5E0051268F /* Random.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8FE9941C7C8CDC0051268F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8FE9F11C7C9B4D0051268F /* Summary.swift in Sources */,
+				BB8FE9ED1C7C9B4D0051268F /* RedBlackKey.swift in Sources */,
+				BB8FE9EE1C7C9B4D0051268F /* RedBlackTree descriptions.swift in Sources */,
+				BB8FE9EF1C7C9B4D0051268F /* RedBlackTree.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8FE9AB1C7C8E0E0051268F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8FE9EC1C7C9B4C0051268F /* Summary.swift in Sources */,
+				BB8FE9E81C7C9B4C0051268F /* RedBlackKey.swift in Sources */,
+				BB8FE9E91C7C9B4C0051268F /* RedBlackTree descriptions.swift in Sources */,
+				BB8FE9EA1C7C9B4C0051268F /* RedBlackTree.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8FE9B51C7C8E0E0051268F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8FEA1A1C7C9C5E0051268F /* PermutationTests.swift in Sources */,
+				BB8FEA231C7C9C5E0051268F /* XCTest extensions.swift in Sources */,
+				BB8FEA071C7C9C010051268F /* TreeChecker.swift in Sources */,
+				BB8FEA0A1C7C9C010051268F /* TreeDumper.swift in Sources */,
+				BB8FE9FE1C7C9C010051268F /* RedBlackTreeTests.swift in Sources */,
+				BB8FEA201C7C9C5E0051268F /* String Manipulation.swift in Sources */,
+				BB8FEA011C7C9C010051268F /* TestUtils.swift in Sources */,
+				BB8FEA171C7C9C5E0051268F /* Permutations.swift in Sources */,
+				BB8FEA1D1C7C9C5E0051268F /* Random.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9AE4361C1FCC35002C5D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8FE9F61C7C9B4D0051268F /* Summary.swift in Sources */,
+				BB8FE9F21C7C9B4D0051268F /* RedBlackKey.swift in Sources */,
+				BB8FE9F31C7C9B4D0051268F /* RedBlackTree descriptions.swift in Sources */,
+				BB8FE9F41C7C9B4D0051268F /* RedBlackTree.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9AE4481C1FCE0B002C5D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8FEA191C7C9C5E0051268F /* PermutationTests.swift in Sources */,
+				BB8FEA221C7C9C5E0051268F /* XCTest extensions.swift in Sources */,
+				BB8FEA061C7C9C010051268F /* TreeChecker.swift in Sources */,
+				BB8FEA091C7C9C010051268F /* TreeDumper.swift in Sources */,
+				BB8FE9FD1C7C9C010051268F /* RedBlackTreeTests.swift in Sources */,
+				BB8FEA1F1C7C9C5E0051268F /* String Manipulation.swift in Sources */,
+				BB8FEA001C7C9C010051268F /* TestUtils.swift in Sources */,
+				BB8FEA161C7C9C5E0051268F /* Permutations.swift in Sources */,
+				BB8FEA1C1C7C9C5E0051268F /* Random.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB54D0BC1C1F0357008A462B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB54D0AE1C1F0357008A462B /* iOS */;
+			targetProxy = BB54D0BB1C1F0357008A462B /* PBXContainerItemProxy */;
+		};
+		BB8FE9BC1C7C8E0F0051268F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB8FE9AF1C7C8E0E0051268F /* tvOS */;
+			targetProxy = BB8FE9BB1C7C8E0F0051268F /* PBXContainerItemProxy */;
+		};
+		BB9AE4531C1FCE0B002C5D63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB9AE43A1C1FCC35002C5D63 /* Mac */;
+			targetProxy = BB9AE4521C1FCE0B002C5D63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BB3EAADD1C2707E90028E5A7 /* Unchecked */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB8FE9931C7C8BB70051268F /* version.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = "$(BUILD_NUMBER)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = "$(BUILD_NUMBER)";
+				DYLIB_CURRENT_VERSION = "$(BUILD_NUMBER)";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_DISABLE_SAFETY_CHECKS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Unchecked;
+		};
+		BB3EAADE1C2707E90028E5A7 /* Unchecked */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.lorentey.RedBlackTree.iOS;
+				PRODUCT_NAME = RedBlackTree;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Unchecked;
+		};
+		BB3EAADF1C2707E90028E5A7 /* Unchecked */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.lorentey.RedBlackTree.Mac;
+				PRODUCT_NAME = RedBlackTree;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Unchecked;
+		};
+		BB3EAAE01C2707E90028E5A7 /* Unchecked */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.lorentey.RedBlackTree.Tests.iOS;
+				PRODUCT_NAME = RedBlackTreeTests;
+				SDKROOT = iphoneos;
+			};
+			name = Unchecked;
+		};
+		BB3EAAE11C2707E90028E5A7 /* Unchecked */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.lorentey.RedBlackTree.Tests.Mac;
+				PRODUCT_NAME = RedBlackTreeTests;
+				SDKROOT = macosx;
+			};
+			name = Unchecked;
+		};
+		BB54D0C11C1F0357008A462B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB8FE9931C7C8BB70051268F /* version.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = "$(BUILD_NUMBER)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_COMPATIBILITY_VERSION = "$(BUILD_NUMBER)";
+				DYLIB_CURRENT_VERSION = "$(BUILD_NUMBER)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		BB54D0C21C1F0357008A462B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB8FE9931C7C8BB70051268F /* version.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = "$(BUILD_NUMBER)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = "$(BUILD_NUMBER)";
+				DYLIB_CURRENT_VERSION = "$(BUILD_NUMBER)";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		BB54D0C41C1F0357008A462B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.lorentey.RedBlackTree.iOS;
+				PRODUCT_NAME = RedBlackTree;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB54D0C51C1F0357008A462B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.lorentey.RedBlackTree.iOS;
+				PRODUCT_NAME = RedBlackTree;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BB54D0C71C1F0357008A462B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.lorentey.RedBlackTree.Tests.iOS;
+				PRODUCT_NAME = RedBlackTreeTests;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB54D0C81C1F0357008A462B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.lorentey.RedBlackTree.Tests.iOS;
+				PRODUCT_NAME = RedBlackTreeTests;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		BB8FE99F1C7C8CDC0051268F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.lorentey.RedBlackTree.watchOS;
+				PRODUCT_NAME = RedBlackTree;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		BB8FE9A01C7C8CDC0051268F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.lorentey.RedBlackTree.watchOS;
+				PRODUCT_NAME = RedBlackTree;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		BB8FE9A11C7C8CDC0051268F /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.lorentey.RedBlackTree.watchOS;
+				PRODUCT_NAME = RedBlackTree;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Profile;
+		};
+		BB8FE9A21C7C8CDC0051268F /* Unchecked */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.lorentey.RedBlackTree.watchOS;
+				PRODUCT_NAME = RedBlackTree;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Unchecked;
+		};
+		BB8FE9C21C7C8E0F0051268F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.lorentey.RedBlackTree.tvOS;
+				PRODUCT_NAME = RedBlackTree;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		BB8FE9C31C7C8E0F0051268F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.lorentey.RedBlackTree.tvOS;
+				PRODUCT_NAME = RedBlackTree;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		BB8FE9C41C7C8E0F0051268F /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.lorentey.RedBlackTree.tvOS;
+				PRODUCT_NAME = RedBlackTree;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Profile;
+		};
+		BB8FE9C51C7C8E0F0051268F /* Unchecked */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.lorentey.RedBlackTree.tvOS;
+				PRODUCT_NAME = RedBlackTree;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Unchecked;
+		};
+		BB8FE9C71C7C8E0F0051268F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.lorentey.RedBlackTree.Tests.tvOS;
+				PRODUCT_NAME = RedBlackTreeTests;
+				SDKROOT = appletvos;
+			};
+			name = Debug;
+		};
+		BB8FE9C81C7C8E0F0051268F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.lorentey.RedBlackTree.Tests.tvOS;
+				PRODUCT_NAME = RedBlackTreeTests;
+				SDKROOT = appletvos;
+			};
+			name = Release;
+		};
+		BB8FE9C91C7C8E0F0051268F /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.lorentey.RedBlackTree.Tests.tvOS;
+				PRODUCT_NAME = RedBlackTreeTests;
+				SDKROOT = appletvos;
+			};
+			name = Profile;
+		};
+		BB8FE9CA1C7C8E0F0051268F /* Unchecked */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.lorentey.RedBlackTree.Tests.tvOS;
+				PRODUCT_NAME = RedBlackTreeTests;
+				SDKROOT = appletvos;
+			};
+			name = Unchecked;
+		};
+		BB9AE4411C1FCC35002C5D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.lorentey.RedBlackTree.Mac;
+				PRODUCT_NAME = RedBlackTree;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BB9AE4421C1FCC35002C5D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.lorentey.RedBlackTree.Mac;
+				PRODUCT_NAME = RedBlackTree;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BB9AE4551C1FCE0B002C5D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.lorentey.RedBlackTree.Tests.Mac;
+				PRODUCT_NAME = RedBlackTreeTests;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BB9AE4561C1FCE0B002C5D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.lorentey.RedBlackTree.Tests.Mac;
+				PRODUCT_NAME = RedBlackTreeTests;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BB9AE4691C203A23002C5D63 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB8FE9931C7C8BB70051268F /* version.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = "$(BUILD_NUMBER)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = "$(BUILD_NUMBER)";
+				DYLIB_CURRENT_VERSION = "$(BUILD_NUMBER)";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Profile;
+		};
+		BB9AE46A1C203A23002C5D63 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.lorentey.RedBlackTree.iOS;
+				PRODUCT_NAME = RedBlackTree;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Profile;
+		};
+		BB9AE46B1C203A23002C5D63 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.lorentey.RedBlackTree.Mac;
+				PRODUCT_NAME = RedBlackTree;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Profile;
+		};
+		BB9AE46C1C203A23002C5D63 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.lorentey.RedBlackTree.Tests.iOS;
+				PRODUCT_NAME = RedBlackTreeTests;
+				SDKROOT = iphoneos;
+			};
+			name = Profile;
+		};
+		BB9AE46D1C203A23002C5D63 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.lorentey.RedBlackTree.Tests.Mac;
+				PRODUCT_NAME = RedBlackTreeTests;
+				SDKROOT = macosx;
+			};
+			name = Profile;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB54D0A91C1F0357008A462B /* Build configuration list for PBXProject "RedBlackTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB54D0C11C1F0357008A462B /* Debug */,
+				BB54D0C21C1F0357008A462B /* Release */,
+				BB9AE4691C203A23002C5D63 /* Profile */,
+				BB3EAADD1C2707E90028E5A7 /* Unchecked */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB54D0C31C1F0357008A462B /* Build configuration list for PBXNativeTarget "iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB54D0C41C1F0357008A462B /* Debug */,
+				BB54D0C51C1F0357008A462B /* Release */,
+				BB9AE46A1C203A23002C5D63 /* Profile */,
+				BB3EAADE1C2707E90028E5A7 /* Unchecked */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB54D0C61C1F0357008A462B /* Build configuration list for PBXNativeTarget "Tests-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB54D0C71C1F0357008A462B /* Debug */,
+				BB54D0C81C1F0357008A462B /* Release */,
+				BB9AE46C1C203A23002C5D63 /* Profile */,
+				BB3EAAE01C2707E90028E5A7 /* Unchecked */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB8FE99E1C7C8CDC0051268F /* Build configuration list for PBXNativeTarget "watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB8FE99F1C7C8CDC0051268F /* Debug */,
+				BB8FE9A01C7C8CDC0051268F /* Release */,
+				BB8FE9A11C7C8CDC0051268F /* Profile */,
+				BB8FE9A21C7C8CDC0051268F /* Unchecked */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB8FE9C11C7C8E0F0051268F /* Build configuration list for PBXNativeTarget "tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB8FE9C21C7C8E0F0051268F /* Debug */,
+				BB8FE9C31C7C8E0F0051268F /* Release */,
+				BB8FE9C41C7C8E0F0051268F /* Profile */,
+				BB8FE9C51C7C8E0F0051268F /* Unchecked */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB8FE9C61C7C8E0F0051268F /* Build configuration list for PBXNativeTarget "Tests-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB8FE9C71C7C8E0F0051268F /* Debug */,
+				BB8FE9C81C7C8E0F0051268F /* Release */,
+				BB8FE9C91C7C8E0F0051268F /* Profile */,
+				BB8FE9CA1C7C8E0F0051268F /* Unchecked */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB9AE4401C1FCC35002C5D63 /* Build configuration list for PBXNativeTarget "Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9AE4411C1FCC35002C5D63 /* Debug */,
+				BB9AE4421C1FCC35002C5D63 /* Release */,
+				BB9AE46B1C203A23002C5D63 /* Profile */,
+				BB3EAADF1C2707E90028E5A7 /* Unchecked */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB9AE4541C1FCE0B002C5D63 /* Build configuration list for PBXNativeTarget "Tests-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9AE4551C1FCE0B002C5D63 /* Debug */,
+				BB9AE4561C1FCE0B002C5D63 /* Release */,
+				BB9AE46D1C203A23002C5D63 /* Profile */,
+				BB3EAAE11C2707E90028E5A7 /* Unchecked */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB54D0A61C1F0357008A462B /* Project object */;
+}
