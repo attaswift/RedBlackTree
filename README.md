@@ -6,8 +6,10 @@
 [![Build Status](https://travis-ci.org/lorentey/RedBlackTree.svg?branch=master)](https://travis-ci.org/lorentey/RedBlackTree)
 [![Code Coverage](https://codecov.io/github/lorentey/RedBlackTree/coverage.svg?branch=master)](https://codecov.io/github/lorentey/RedBlackTree?branch=master)
 
-This project provides an red-black tree implementation in pure Swift as a struct with value semantics.
-The nodes of the tree are stored in a single flat `Array`, with array indexes serving as pointers.
+This project provides an implementation of [red-black trees][wiki] in pure Swift as structs with value semantics.
+The nodes are stored in bulk inside a single flat `Array`, with array indexes serving as pointers.
+
+[wiki]: https://en.wikipedia.org/wiki/Red–black_tree
 
 `RedBlackTree` supports value-based lookup, positional lookup, or a combination of both, depending on how 
 you configure its key type, `RedBlackKey`. For example, you can create a single red-black tree that supports 
